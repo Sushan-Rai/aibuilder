@@ -1,0 +1,13 @@
+VPN Setup:
+1. Install Cisco AnyConnect.
+2. Login using company credentials.
+3. Connect to vpn.company.com.
+
+Approved Software:
+- Microsoft Office
+- VS Code
+- Docker
+- Git
+
+Laptop Request:
+Submit a request through the IT Portal.

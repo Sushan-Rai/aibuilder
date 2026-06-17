@@ -1,0 +1,10 @@
+Reimbursement Process:
+1. Fill reimbursement form.
+2. Attach receipts.
+3. Submit to finance@company.com.
+
+Budget Reports:
+Stored in Finance SharePoint.
+
+Payroll:
+Payroll is processed on the last working day of every month.
