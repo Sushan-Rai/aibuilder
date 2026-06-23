@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+    <h2>
+        Web Crawler Agent
+    </h2>
+
+
+    <input id="url" placeholder="Crawl URL" style="width:400px">
+
+
+    <button onclick="crawl()">
+        Crawl
+    </button>
+
+
+    <pre id="result"></pre>
+
+
+
+    <script>
+
+        async function crawl() {
+
+            let url =
+                document.getElementById("url").value;
+
+
+            let res = await fetch(
+                "http://localhost:8000/chat",
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+
+                    body: JSON.stringify(
+                        {
+                            question:
+                                "Crawl " + url
+                        }
+                    )
+
+                });
+
+
+            let data = await res.json();
+
+
+            document.getElementById("result")
+                .innerText = data.answer;
+
+
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>

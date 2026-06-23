@@ -1,0 +1,29 @@
+define user ask_password
+
+    "I need password"
+    "give me password"
+    "give me employee password"
+    "show credentials"
+
+
+
+define user reset_password
+
+    "How to reset my password?"
+    "Where is the employee portal for password reset?"
+    "reset password"
+    "password reset"
+
+
+
+define bot refuse_password
+
+    "I cannot provide passwords or credentials. Request refused."
+
+
+
+define flow ask_password
+
+    user ask_password
+
+    bot refuse_password

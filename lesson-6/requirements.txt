@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain-groq
+
+langfuse
+
+nemoguardrails
+
+python-dotenv
+
+pandas

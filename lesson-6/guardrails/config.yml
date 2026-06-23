@@ -1,0 +1,7 @@
+models:
+
+  - type: main
+    engine: langchain
+    model: ChatGroq
+
+
